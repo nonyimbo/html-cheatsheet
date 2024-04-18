@@ -1,0 +1,133 @@
+body {
+    background-color: white;
+    /*box-sizing: border-box;*/
+
+    
+}
+
+#banner-heading {
+
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    letter-spacing: 2px;
+    top: -30px;
+    
+   
+    
+
+
+}
+
+main{
+    position: relative;
+    top: 10px;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+#videotag .title{
+    
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+.tagstable{
+    
+    width: fit-content;
+    margin: 0 auto 80px;
+
+}
+
+th{
+    background-color: lightslategray;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: 'Trebuchet MS';
+    
+    
+    
+}
+    
+
+
+
+th:first-child{
+    background-color: lightslategray;
+}
+
+
+
+th:last-child{
+    background-color: lightslategray;
+    color: white;
+    
+}
+
+td{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-right: 5px;
+}
+
+
+
+
+td:first-child{
+    background-color:turquoise;
+    color: black;
+    font-weight: 800;
+    padding-left: 5px;
+    font-family: monospace;
+    text-align: center;
+    
+    
+}
+
+
+
+.name{
+
+    padding-left: 5px;
+    font-family: 'Roboto';
+    font-style: italic;
+    text-align: center;
+    border: 1px solid black;
+    
+
+
+    
+}
+
+
+td:last-child{
+    line-height: 1.6;
+    padding-left: 5px;
+    font-family: 'Saira Condensed';
+    border: 1px solid black;
+    font-weight: 600;
+    
+}
+
+#videoatts .title{
+
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.attstable{
+    width: fit-content;
+    margin: 0 auto 40px;
+    
+}
